@@ -1,0 +1,30 @@
+{
+	"name": "balancer/bors-3rd-jquery",
+	"description": "jQuery asset for any PHP project",
+	"license": "MIT",
+
+	"authors": [
+		{
+			"name": "Balancer",
+			"email": "balancer@balancer.ru"
+		}
+	],
+
+	"require": {
+		"atelierspierrot/assets-manager": "1.*"
+	},
+
+	"type": "bors-assets",
+
+    "autoload": {
+		"classmap": ["classes/"]
+    },
+
+	"extra": {
+		"assets-presets": {
+			"jquery.jquery": {
+				"jsfiles_footer": "/js/jquery-2.1.0.min.js",
+			}
+		}
+	}
+}
