@@ -1,8 +1,11 @@
 {
 	"name": "balancer/bors-3rd-jquery",
-	"version": "2.1.0",
 	"description": "jQuery asset for any PHP project",
 	"license": "MIT",
+
+	"package": {
+		"version": "2.1.0"
+	},
 
 	"authors": [
 		{
