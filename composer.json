@@ -23,7 +23,7 @@
 	"extra": {
 		"assets-presets": {
 			"jquery.jquery": {
-				"jsfiles_footer": "/js/jquery-2.1.0.min.js",
+				"jsfiles_footer": "/js/jquery-2.1.0.min.js"
 			}
 		}
 	}
