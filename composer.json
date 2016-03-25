@@ -1,8 +1,7 @@
 {
 	"name": "balancer/bors-3rd-jquery",
-	"version": "2.1.0",
-	"description": "jQuery asset for any PHP project",
-	"license": "MIT",
+	"description": "jQuery classes for BORS© framework",
+	"license": "GPLv3",
 
 	"authors": [
 		{
@@ -12,20 +11,12 @@
 	],
 
 	"require": {
-		"atelierspierrot/assets-manager": "1.*"
+		"bower-asset/jquery": "*"
 	},
 
 	"type": "bors-assets",
 
     "autoload": {
 		"classmap": ["classes/"]
-    },
-
-	"extra": {
-		"assets-presets": {
-			"jquery.jquery": {
-				"jsfiles_footer": "/js/jquery-2.1.0.min.js"
-			}
-		}
-	}
+    }
 }
